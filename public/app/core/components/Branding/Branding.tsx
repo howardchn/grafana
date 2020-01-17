@@ -9,8 +9,8 @@ export interface BrandComponentProps {
 export const LoginLogo: FC<BrandComponentProps> = ({ className }) => {
   return (
     <>
-      <img className={className} src="public/img/grafana_icon.svg" alt="Grafana" />
-      <div className="logo-wordmark" />
+      <img className={className} src="public/img/moblab_icon.svg" alt="Grafana" />
+      <div className="logo-wordmark">MobLab</div>
     </>
   );
 };
@@ -25,7 +25,7 @@ export const LoginBackground: FC<BrandComponentProps> = ({ className, children }
 };
 
 export const MenuLogo: FC<BrandComponentProps> = ({ className }) => {
-  return <img className={className} src="public/img/grafana_icon.svg" alt="Grafana" />;
+  return <img className={className} src="public/img/moblab_icon.svg" alt="Grafana" />;
 };
 
 export class Branding {

@@ -251,7 +251,7 @@ class PluginPage extends PureComponent<Props, State> {
         <h4>Dependencies</h4>
         <ul className="ui-list plugin-info-list">
           <li className="plugin-info-list-item">
-            <img src="public/img/grafana_icon.svg" />
+            <img src="public/img/moblab_icon.svg" />
             Grafana {dependencies.grafanaVersion}
           </li>
           {dependencies.plugins &&
